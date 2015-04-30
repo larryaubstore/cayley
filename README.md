@@ -146,3 +146,5 @@ Not a Google project, but created and maintained [by a Googler](http://github.co
 
 ### PERSO
 ./cayley http --dbpath=leveldbpath/ --db=leveldb
+./cayley init --dbpath=newdb/ --db=leveldb
+./cayley http --dbpath=newdb/ --db=leveldb
